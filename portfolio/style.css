@@ -1,8 +1,4 @@
 ```css
-/* ================================
-   BASIC RESET
-================================ */
-
 * {
     margin: 0;
     padding: 0;
@@ -19,25 +15,17 @@ body {
     color: #3d2635;
 }
 
-
-/* ================================
-   NAVBAR
-================================ */
-
 .navbar {
     width: 100%;
     padding: 22px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background: rgba(255, 248, 252, 0.85);
     backdrop-filter: blur(15px);
-
     position: fixed;
     top: 0;
     z-index: 1000;
-
     border-bottom: 1px solid #f6dce9;
 }
 
@@ -62,7 +50,6 @@ body {
     color: #68465b;
     font-size: 14px;
     font-weight: 600;
-
     transition: 0.3s;
 }
 
@@ -70,20 +57,13 @@ body {
     color: #d84b87;
 }
 
-
-/* ================================
-   HERO
-================================ */
-
 .hero {
     min-height: 100vh;
     padding: 150px 10% 80px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 80px;
-
     background:
         radial-gradient(circle at 15% 25%, #ffd9e9 0%, transparent 30%),
         radial-gradient(circle at 90% 80%, #eadcff 0%, transparent 30%),
@@ -124,11 +104,6 @@ body {
     color: #765c6c;
 }
 
-
-/* ================================
-   BUTTONS
-================================ */
-
 .buttons {
     display: flex;
     gap: 15px;
@@ -164,28 +139,17 @@ body {
     background: #fff0f7;
 }
 
-
-/* ================================
-   PROFILE CARD
-================================ */
-
 .profile-card {
     width: 320px;
     padding: 45px 30px;
-
     text-align: center;
-
     border-radius: 35px;
-
     background: rgba(255, 255, 255, 0.65);
     backdrop-filter: blur(20px);
-
     border: 1px solid #ffffff;
-
     box-shadow:
         0 25px 60px #d55c9130,
         inset 0 0 30px #ffffff80;
-
     transition: 0.4s;
 }
 
@@ -196,23 +160,17 @@ body {
 .profile-circle {
     width: 150px;
     height: 150px;
-
     margin: auto auto 25px;
-
     border-radius: 50%;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: linear-gradient(
         135deg,
         #ffd1e4,
         #e3c8f5
     );
-
     border: 8px solid white;
-
     box-shadow: 0 15px 35px #cf639133;
 }
 
@@ -241,18 +199,13 @@ body {
 .social-icons a {
     width: 38px;
     height: 38px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-
     text-decoration: none;
-
     color: #c54a82;
     background: #fff0f7;
-
     transition: 0.3s;
 }
 
@@ -261,11 +214,6 @@ body {
     color: white;
     transform: translateY(-4px);
 }
-
-
-/* ================================
-   SECTIONS
-================================ */
 
 .section {
     padding: 110px 10%;
@@ -282,11 +230,6 @@ body {
     color: #d84b87;
 }
 
-
-/* ================================
-   ABOUT CARDS
-================================ */
-
 .about-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -295,15 +238,10 @@ body {
 
 .about-card {
     padding: 35px 25px;
-
     border-radius: 25px;
-
     background: white;
-
     border: 1px solid #f7dce9;
-
     box-shadow: 0 15px 40px #c6538120;
-
     transition: 0.3s;
 }
 
@@ -327,11 +265,6 @@ body {
     line-height: 1.7;
 }
 
-
-/* ================================
-   DETAILS
-================================ */
-
 .details-section {
     background: linear-gradient(
         135deg,
@@ -343,7 +276,6 @@ body {
 .details-box {
     max-width: 950px;
     margin: auto;
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
@@ -353,17 +285,11 @@ body {
     display: flex;
     align-items: center;
     gap: 18px;
-
     padding: 22px;
-
     background: rgba(255, 255, 255, 0.8);
-
     border-radius: 20px;
-
     text-align: left;
-
     border: 1px solid white;
-
     transition: 0.3s;
 }
 
@@ -374,15 +300,11 @@ body {
 .detail-icon {
     width: 50px;
     height: 50px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 15px;
-
     background: #ffe1ed;
-
     font-size: 22px;
 }
 
@@ -395,15 +317,9 @@ body {
     font-weight: 600;
 }
 
-
-/* ================================
-   SKILLS
-================================ */
-
 .skills-container {
     max-width: 800px;
     margin: auto;
-
     display: grid;
     gap: 20px;
 }
@@ -411,18 +327,14 @@ body {
 .skill-card {
     background: white;
     padding: 25px;
-
     border-radius: 20px;
-
     box-shadow: 0 10px 30px #c6538118;
 }
 
 .skill-top {
     display: flex;
     justify-content: space-between;
-
     margin-bottom: 12px;
-
     font-weight: 600;
 }
 
@@ -432,18 +344,14 @@ body {
 
 .progress {
     height: 10px;
-
     background: #f6e2ed;
-
     border-radius: 20px;
-
     overflow: hidden;
 }
 
 .progress-bar {
     height: 100%;
     border-radius: 20px;
-
     background: linear-gradient(
         90deg,
         #d84b87,
@@ -467,26 +375,16 @@ body {
     width: 95%;
 }
 
-
-/* ================================
-   CONTACT
-================================ */
-
 .contact-section {
     background: #fff1f7;
 }
 
 .contact-card {
     max-width: 550px;
-
     margin: auto;
-
     padding: 40px;
-
     background: white;
-
     border-radius: 30px;
-
     box-shadow: 0 20px 50px #c6538125;
 }
 
@@ -498,32 +396,18 @@ body {
 .contact-item {
     display: flex;
     align-items: center;
-
     gap: 15px;
-
     padding: 15px;
-
     margin-top: 12px;
-
     background: #fff4f9;
-
     border-radius: 15px;
-
     color: #6d4d60;
 }
 
-
-/* ================================
-   FOOTER
-================================ */
-
 footer {
     text-align: center;
-
     padding: 30px;
-
     background: #3e2736;
-
     color: #f8dce9;
 }
 
@@ -531,13 +415,7 @@ footer span {
     color: #ff83b4;
 }
 
-
-/* ================================
-   RESPONSIVE
-================================ */
-
 @media (max-width: 850px) {
-
     .navbar {
         padding: 18px 5%;
     }
